@@ -31,7 +31,7 @@ Include platformx as a dependency into your project.
 
 - Version 2:
   ```dart
-  PlatformX.is[Android/IOS/Web/Windows/Linux/MacOS/Fuschia]
+  PlatformX.is[Android/IOS/Web/Windows/Linux/MacOS/Fuchsia]
   ```
   This will return TRUE or FALSE, depending if you are running on that specific platform.
 
