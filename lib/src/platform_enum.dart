@@ -1,4 +1,4 @@
-/// The call to PlatformX.platform gives us one of the enum values below
+/// Platforms enum
 enum PlatformEnum {
   Android,
   IOS,

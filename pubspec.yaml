@@ -1,7 +1,7 @@
 name: platformx
-description: Lightweight platform checking utility.
+description: Lightweight platform checking utility for Flutter. Works for all platforms.
 homepage: https://github.com/adrianflutur/platformx
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

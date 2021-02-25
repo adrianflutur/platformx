@@ -10,10 +10,11 @@ A multi-platform lightweight tool which helps you check the platform your app is
 | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
 | ![android](https://raw.githubusercontent.com/adrianflutur/platformx/master/doc/screenshots/screen_android.png) | ![web](https://raw.githubusercontent.com/adrianflutur/platformx/master/doc/screenshots/screen_web.png) |
 
-
 ## Usage
 
 Include platformx as a dependency into your project.
+
+There are 2 ways to use this:
 
 - Version 1:
 
