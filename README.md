@@ -4,37 +4,51 @@
 
 A multi-platform lightweight tool which helps you check the platform your app is running on.
 
-## Example
+- ## Gallery
 
-|                                                    Android                                                     |                                                  Web                                                   |
-| :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
-| ![android](https://raw.githubusercontent.com/adrianflutur/platformx/master/doc/screenshots/screen_android.png) | ![web](https://raw.githubusercontent.com/adrianflutur/platformx/master/doc/screenshots/screen_web.png) |
+|                                                                Android                                                                 |                                                                Web                                                                 |
+| :------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/adrianflutur/platformx/main/doc/screenshots/screen_android.png" height="500" width="250"/> | <img src="https://raw.githubusercontent.com/adrianflutur/platformx/main/doc/screenshots/screen_web.png" height="500" width="300"/> |
 
-## Usage
+---
 
-Include platformx as a dependency into your project.
+- ## Usage
 
-There are 2 ways to use this:
+There are 2 ways to use it.
 
-- Version 1:
+### **First way** :
 
-  ```dart
-  PlatformX.platform
-  ```
+```dart
+PlatformX.platform
+```
 
-  This will return a
+This will return one of the values of the `PlatformEnum` enum.
 
-  ```dart
-  PlatformEnum
-  ```
+```dart
+enum PlatformEnum {
+  Android,
+  IOS,
+  Web,
+  Windows,
+  Linux,
+  MacOS,
+  Fuchsia,
+}
+```
 
-  which is the platform your app is currently running on.
+### **Second way** :
 
-- Version 2:
-  ```dart
-  PlatformX.is[Android/IOS/Web/Windows/Linux/MacOS/Fuchsia]
-  ```
-  This will return TRUE or FALSE, depending if you are running on that specific platform.
+```dart
+PlatformX.is[Android/IOS/Web/Windows/Linux/MacOS/Fuchsia]
+```
+
+Example:
+
+```dart
+PlatformX.isLinux
+```
+
+This will return **true** if you are running on that specific platform, or **false** otherwise.
 
 ## License
 
